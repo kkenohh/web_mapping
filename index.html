@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Covid Cases Per 10k People in Washington By County</title>
+    <title>Covid Cases in Washington</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
@@ -49,21 +49,21 @@
                         'fill-color': [
                             'step',
                             ['get', 'casePer10k'],
-                            '#FFEDA0',   // stop_output_0
+                            '#9BF8F4',   // stop_output_0
                             500,          // stop_input_0
-                            '#FED976',   // stop_output_1
+                            '#8FDFF5',   // stop_output_1
                             750,          // stop_input_1
-                            '#FEB24C',   // stop_output_2
+                            '#82C6F7',   // stop_output_2
                             1000,          // stop_input_2
-                            '#FD8D3C',   // stop_output_3
+                            '#77B0F8',   // stop_output_3
                             1250,         // stop_input_3
-                            '#FC4E2A',   // stop_output_4
+                            '#6993FA',   // stop_output_4
                             1500,         // stop_input_4
-                            '#E31A1C',   // stop_output_5
+                            '#5F7EFB',   // stop_output_5
                             1750,         // stop_input_5
-                            '#BD0026',   // stop_output_6
+                            '#4E5CFD',   // stop_output_6
                             2000,        // stop_input_6
-                            "#800026"    // stop_output_7
+                            "#2E40FF"    // stop_output_7
                         ],
                         'fill-outline-color': '#BBBBBB',
                         'fill-opacity': 0.7,
@@ -81,14 +81,14 @@
                     '2000 and more'
                 ];
                 const colors = [
-                    '#FFEDA070',
-                    '#FED97670',
-                    '#FEB24C70',
-                    '#FD8D3C70',
-                    '#FC4E2A70',
-                    '#E31A1C70',
-                    '#BD002670',
-                    '#80002670'
+                    '#9BF8F470',
+                    '#8FDFF570',
+                    '#82C6F770',
+                    '#77B0F870',
+                    '#6993FA70',
+                    '#5F7EFB70',
+                    '#4E5CFD70',
+                    '#2E40FF70'
                 ];
 
                 const legend = document.getElementById('legend');
